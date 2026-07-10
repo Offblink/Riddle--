@@ -43,6 +43,8 @@ canvas { position:absolute; inset:0; width:100%; height:100%; border-radius:var(
 @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:0.3; } }
 
 .toolbar { position:absolute; top:8px; right:8px; display:flex; gap:6px; z-index:10; }
+.log-panel { position:fixed; bottom:52px; left:50%; transform:translateX(-50%); width:min(800px,90vw); max-height:200px; overflow-y:auto; background:rgba(0,0,0,0.88); color:#8f8; font:12px/1.5 monospace; padding:8px 12px; border-radius:6px; z-index:50; display:none; scrollbar-width:none; }
+.log-panel::-webkit-scrollbar { display:none; }
 .toolbar button { width:36px; height:36px; border:none; border-radius:50%; background:rgba(0,0,0,0.15); color:var(--ink); font-size:18px; cursor:pointer; display:flex; align-items:center; justify-content:center; backdrop-filter:blur(4px); transition:background 0.2s; }
 .toolbar button:hover { background:rgba(0,0,0,0.25); }
 .toolbar button:active { background:rgba(0,0,0,0.35); }
