@@ -40,6 +40,7 @@ cp config.example.js config.js
 # 2. 编辑 config.js，填入 API Key
 #    （DeepSeek、OpenAI 或任何兼容服务）
 # 3. 双击 index.html 打开即可
+```
 
 也可以在应用内点 ⚙ 修改设置，会存到 localStorage。
 
