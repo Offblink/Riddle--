@@ -40,6 +40,7 @@ cp config.example.js config.js
 # 2. Edit config.js — add your API key
 #    (DeepSeek, OpenAI, or any compatible provider)
 # 3. Open index.html directly
+```
 
 Settings can also be changed in-app (⚙ gear icon) and persist to localStorage.
 
