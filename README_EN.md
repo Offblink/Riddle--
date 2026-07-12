@@ -15,9 +15,8 @@ A browser-based reimagining of [MaximeRivest/riddle](https://github.com/MaximeRi
 | **Handwriting synthesis** | Font → Zhang-Suen skeletonization → stroke trace → animated replay | Canvas `fillText` + clip-reveal animation, centered layout |
 | **Customization** | Fixed font | Selectable font (presets + system fonts), size, speed |
 | **Setup** | Developer mode + SSH + AppLoad | `python -m http.server` |
-| **Offline** | Yes (pi backend) | No (requires API) |
 | **Cost per interaction** | ~500–1000 vision tokens | ~50 text tokens (*~10–20× cheaper*) |
-
+| **Offline** | No (requires API) | No (requires API) |
 ## Why not Vision LLM?
 
 The original riddle sends a PNG screenshot of the entire page to GPT-4o for both handwriting reading AND reply generation. That's 500+ KB of image data for what could be a few bytes of stroke coordinates.

@@ -15,9 +15,8 @@
 | **手写合成** | 字体 → Zhang-Suen 骨架化 → 笔画追踪 → 动画回放 | Canvas `fillText` + clip-reveal 动画，居中排版 |
 | **个性化** | 固定字体 | 可选字体（预设 + 系统字体）、大小、速度 |
 | **安装部署** | 开发者模式 + SSH + AppLoad | `python -m http.server` |
-| **离线** | 支持（pi 后端） | 不支持（需 API） |
 | **每次交互成本** | ~500–1000 vision tokens | ~50 text tokens（*便宜约 10–20 倍*） |
-
+| **离线** | 不支持（需 API） | 不支持（需 API） |
 ## 为什么不用 Vision LLM？
 
 原版 riddle 把整页 PNG 截图发给 GPT-4o，让一个通用多模态大模型同时做"看图识字"和"对话生成"。500+ KB 的图片数据，其实只需要几个字节的笔画坐标。
