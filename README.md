@@ -2,6 +2,8 @@
 
 [MaximeRivest/riddle](https://github.com/MaximeRivest/riddle) 的浏览器重生版。不需要 e-ink 硬件，一个浏览器、一支笔（或鼠标）、一个 API Key 就够了。
 
+> 🎨 **[Riddle++](https://github.com/Offblink/RiddlePlus)** — 进化版，新增识图 + AI 绘图，DevTools 式设置面板。
+
 ## 与 riddle 的差异
 
 | | **riddle（原版）** | **riddle--** |
@@ -100,6 +102,10 @@ riddle--/
 默认：**DeepSeek**（`deepseek-v4-flash`）。任何 OpenAI 兼容 API 都能用——改 `config.js` 即可。
 
 ## 致谢
+
+### [riddle](https://github.com/MaximeRivest/riddle) — 原版 e-ink 日记
+
+由 MaximeRivest 开发（MIT 协议）。原版运行在 reMarkable Paper Pro 上，通过 Vision LLM 读取整页手写并合成回复。Riddle-- 将其核心理念移植到浏览器中。
 
 ### [handwriting.js](https://github.com/ChenYuHo/handwriting.js) — 手写识别
 
