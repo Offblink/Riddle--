@@ -11,7 +11,7 @@
 | **平台** | reMarkable Paper Pro（e-ink, aarch64） | 任何浏览器（Windows / macOS / Linux / 手机） |
 | **语言** | Rust + C/C++ | 单 HTML 文件 + 原生 JS |
 | **显示后端** | 直接驱动 e-ink（quill）或 X11（qtfb） | Canvas |
-| **笔输入** | evdev，4096 级压感 | Pointer events（鼠标 + 多点触摸） |
+| **笔输入** | evdev，4096 级压感 | Pointer events，支持 Apple Pencil / Wacom 等压感笔 |
 | **手写识别** | **Vision LLM**（GPT-4o 读整页 PNG 截图） | **Google IME 笔画 API**（发坐标数组，不发图片） |
 | **回复生成** | 同一个 Vision 模型（读图 + 写文） | **纯文本 LLM**（DeepSeek / OpenAI 兼容） |
 | **手写合成** | 字体 → Zhang-Suen 骨架化 → 笔画追踪 → 动画回放 | Canvas `fillText` + clip-reveal 动画，居中排版 |
